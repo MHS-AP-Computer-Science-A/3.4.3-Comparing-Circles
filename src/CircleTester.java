@@ -1,5 +1,7 @@
-
-public class CircleTester {
+public class CircleTester 
+{
+    public static void main(String[] args)
+    {
         Circle one = new Circle(10, "blue", 50, 35);
         Circle two = new Circle(10, "blue", 50, 35);
         Circle three = new Circle(20, "red", 0, 0);
@@ -21,4 +23,5 @@ public class CircleTester {
             System.out.println(three);
             System.out.println(four);
         }
+    }
 }
