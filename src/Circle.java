@@ -1,10 +1,12 @@
 public class Circle
 {
-    private int radius;
-    private String color;
-    private int x;
-    private int y;
+    //Instance Variables
+    int radius;
+    String color;
+    int x;
+    int y;
     
+    //Methods
     public Circle(int theRadius, String theColor, int xPosition, int yPosition)
     {
         radius = theRadius;
